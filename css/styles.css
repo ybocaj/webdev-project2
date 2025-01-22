@@ -1,1 +1,153 @@
+/*********************************/
+/*          Base Layers          */
+/*********************************/
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('/fonts/DancingScript-VariableFont_wght.ttf') format('truetype'); 
+}    
+* {
+    box-sizing: border-box;
+}
+.main-nav {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+.name {
+    margin-top: 5%;
+}
+a {
+    font-family: 'Varela Round';
+    font-size: 1em;
+    color: #565656;
+    text-decoration: none;
+}
+li a {
+    padding: .625em 6.5em;
+/*  padding: 10px 100px; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 100%;
+}
+ul {
+    padding: 0;
+}
+.logo {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+h2 {
+    font-family: 'Varela Round';
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 1em;
+}
+.main-footer, phone, email {
+/*  font-weight: bold; */
+    font-size: 1em;
+}
+.footer a {
+    color: #000;
+}
 
+
+
+/*******************************/
+/*     media queries           */
+/*******************************/
+@media (min-width: 320px) {
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+        background-color: #f6f6f6;
+    }
+    .main-header, .main-nav, .name {
+        display: flex;
+        flex-direction: column;
+        background-color: #f6f6f6;
+        margin: 0 auto;
+        margin-top: 2vh;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+    li {
+        list-style-type: none;
+        background-color: white;
+        border: 3px solid #FAFAFA;
+    }
+    li a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        white-space: nowrap;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 7.5vw;
+        font-family: 'Dancing Script';
+    }
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        font-family: 'Varela Round';
+        font-size: 1em;
+        text-align: center;
+        padding-bottom: 3em;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Verdana';
+        font-weight: 300;
+        text-align: center;
+    }
+    .main-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        font-weight: bold;
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        border-top: 1px solid lightgray;
+        padding: 2em 0;
+        font-family: 'Verdana';
+    }
+    phone, email {
+        padding: 20px 0;
+    }
+}
+
+
+
+
+
+/* ------------------------------ */
+
+@media (min-width: 768px) {
+    li {
+        list-style-type: none;
+    }
+	.main-header, .main-nav {
+		display: flex;
+	}
+	.main-header {
+		flex-direction: column;
+		align-items: center;
+	}
+	.main-header, .row {
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	.tagline {
+		font-size: 1.4em;
+	}
+}
