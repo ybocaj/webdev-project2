@@ -1,0 +1,126 @@
+/* base layers */
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('/fonts/DancingScript-VariableFont_wght.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 1.35em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    background: #fafafa; /* #e8e9e9; */
+}
+.container {
+    padding: 10px;
+}
+#wrapper {
+    background: #f5f5f5;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.links {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.name {
+    margin-top: 3%;
+}
+h1 {
+    font-size: 1em;
+    text-align: center;
+    font-weight: strong;
+}
+h1.port, h1.foot {
+    text-transform: uppercase;
+    padding: 2%;
+}
+ul li {
+    color: #fff;
+    padding: 15px;
+    margin: 5px;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: .60em;
+    font-weight: bold;
+}
+/*  
+    ul background: #ffecf2;  
+    background: #3db5da;
+    border-radius: 3px;
+*/
+a {
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+a:link {
+    color: #000;
+}
+a:visited {
+    color: #000;
+}
+p {
+    font-family: 'Dancing Script';
+    color: #000;
+    padding: 3%;
+}
+section {
+    display: flex;
+    flex-direction: row;
+}
+section p, footer p {
+    font-family: 'Roboto';
+    font-weight: 200;
+}
+h3 {
+    font-family: 'Open Sans', serif;
+    font-weight: 400;
+    text-align: center;
+}
+main p {
+    text-align: center;
+}
+.info {
+    font-weight: 400;
+}
+footer {
+    background: #f5f5f5;
+    padding: 5%;
+    text-align: center;
+}
+.footoo {
+    display: flex;
+    font-weight: 500;
+    margin-right: auto;
+}
+
+
+@media screen and (min-width: 768px) {
+    .pro {
+        padding-right: 30px;
+        width: 300px;
+        height: 180px;
+    }
+    .pt {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .item, img {
+        max-width: 300px;
+        height: auto;
+    }
+    .item {
+        margin: 5px;
+        justify-content: center;
+    }
+}
