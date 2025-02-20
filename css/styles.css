@@ -19,6 +19,7 @@ body {
 }
 header {
     background: #E6F2D3;
+    padding-bottom: 20px;
 }
 .tennis {
     border-radius: 50%;
@@ -34,9 +35,6 @@ header, ul, section  {
     align-items: center;
     text-align: center;
 }
-ul {
-    padding-bottom: 10px;
-}
 .nav li {
     background: #E5F3FD;
 }
@@ -49,10 +47,9 @@ ul {
     padding: 30px;
 }
 ul li {
-    padding: 5px 0;
-    width: 100vw;
+    width: 80vw;
     margin: 2px;
-    padding: 2px 50px;
+    padding: 2px 50px 10px;
     text-transform: uppercase; 
     font-family: 'Open Sans';
     font-weight: 650;
