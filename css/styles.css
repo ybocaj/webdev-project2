@@ -17,6 +17,9 @@
 body {
     background-image: url("/images/whitebricks.jpg"); 
 }
+header {
+    background: #E6F2D3;
+}
 .tennis {
     border-radius: 50%;
     width: 100px;
@@ -34,9 +37,19 @@ header, ul, section  {
 ul {
     padding-bottom: 10px;
 }
+.nav li {
+    background: #E5F3FD;
+}
+.navfoot li {
+    background: #E5F3FD;
+}
+.raquet {
+    background: #E5F3FD;
+    margin: 0;
+    padding: 30px;
+}
 ul li {
     padding: 5px 0;
-    background: white;
     width: 100vw;
     margin: 2px;
     padding: 2px 50px;
@@ -95,6 +108,10 @@ footer ul {
 }
 .info {
     font-weight: 600;
+    color: navy;
+}
+.email, .phone {
+    color: navy;
 }
 .topfoot {
     padding-bottom: 40px;
@@ -112,6 +129,7 @@ div.bottomfoot {
     display: flex;
     flex-direction: row;
     align-items: center;
+    background: #E6F2D3;
 }
 h1.footname {
     font-size: 20px;
