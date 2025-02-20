@@ -1,5 +1,9 @@
 /* base layers */
 @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-VariableFont_wdth,wght.ttf') format('truetype'); 
+}
+@font-face {
     font-family: 'Dancing Script';
     src: url('/fonts/DancingScript-VariableFont_wght.ttf') format('truetype'); 
 }
@@ -11,12 +15,15 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url("../images/whitebricks.jpg"); 
+    background-image: url("/images/whitebricks.jpg"); 
 }
 .tennis {
     border-radius: 50%;
     width: 100px;
     height: 100px;
+}
+.robofont {
+    font-family: 'Roboto';
 }
 header, ul, section  {
     display: flex;
@@ -54,6 +61,7 @@ a:visited {
     width: 200px;
     order: -1;
     padding-top: 20px;
+    font-family:  'Roboto';
 }
 .port {
     text-transform: uppercase;
